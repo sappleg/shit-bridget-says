@@ -12,7 +12,8 @@ body {
     padding: 0px;
     height: 100%;
     overflow-x: auto;
-    overflow-y: scroll
+    overflow-y: scroll;
+    background: url('../img/bright_squares.png') repeat;
 }
 
 .menu {
@@ -42,4 +43,41 @@ body {
 .menu > li:nth-child(1):before {
   content: "";
   padding: 0;
+}
+
+.content {
+    position:relative;
+    margin: 0 auto;
+    width: 500px;
+    height:500px;
+    background: url('../img/bg2.jpeg') no-repeat center;
+}
+
+.content h1 {
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+}
+
+.content h1 span {
+    color: red;
+}
+
+.bubble {
+    position:absolute;
+    background: url('../img/Speech-Bubble.png') no-repeat;
+    top: 22px;
+    left: -105px;
+    width: 300px;
+    height: 300px;
+}
+
+.tweet {
+    padding: 55px;
+}
+
+.next {
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
 }

@@ -2,28 +2,20 @@
 <html lang="en" ng-app="myApp">
 <head>
   <meta charset="utf-8">
-  <title>My AngularJS App</title>
+  <title>Shit Bridget Says</title>
   <link rel="stylesheet" href="css/app.css"/>
-  <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css"/>
-  <link rel="stylesheet" href="css/font-awesome/css/font-awesome.css">
-  <link type="text/css" href="css/ui-lightness/jquery-ui-1.8.23.custom.css" rel="Stylesheet" />
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
 
 </head>
 <body ng-controller="mainCtrl">
-
-
-  <!-- In production use:
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
-  -->
-  <script src="lib/angular/angular.js"></script>
-  <script src="lib/jquery-1.8.0.min.js"></script>
-  <script type="text/javascript" src="lib/jquery-ui-1.8.23.custom.min.js"></script>
-  <script type="text/javascript" src="lib/jquery.hoverIntent.minified.js"></script>
-  <script type="text/javascript" src="lib/underscore.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/services.js"></script>
+<div class="content">
+    <h1>HiIii IM BrIdGeT <span>and im a betch.</span></h1>
+    <div class="bubble">
+        <div class="tweet">{{activeTweet.text}}</div>
+    </div>
+    <button class="next btn btn-success" ng-click="nextTweet()">Next Tweet</button>
+</div>
+  <script src="lib/angular.min.js"></script>
   <script src="js/controllers.js"></script>
-  <script src="js/filters.js"></script>
-  <script src="js/directives.js"></script>
 </body>
 </html>
