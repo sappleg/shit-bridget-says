@@ -17,8 +17,6 @@ function mainCtrl($scope, $http) {
            counter = 0;
            $scope.activeTweet = $scope.tweets[counter];
         }
-
-
     };
 
     (function () {
